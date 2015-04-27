@@ -1,0 +1,245 @@
+@font-face{
+font-family:click;
+src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face{
+font-family:title;
+src: url("../fonts/Chunkfive.otf");
+}
+@font-face{
+font-family:special;
+src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face{
+font-family:paragraph;
+src: url("../fonts/Roboto-Light.ttf");
+}
+
+a{
+text-decoration:none;
+}
+body{
+background-color:#202020;
+
+}
+.container{
+background-color: #ffffff;
+overflow-x: hidden;
+}
+
+/*------------navbar---------------*/
+#title{
+background-color: #ffffff;
+color:#ff6a00;
+font-family: title;
+text-align: center;
+letter-spacing:0.6rem;
+opacity: 0.6;
+}
+
+#navbar{
+background-color:#202020;
+font-family:title;
+padding:1rem;
+color:teal;
+letter-spacing:0.5rem;
+}
+#navbar::scroll{
+margin-top:0;
+position:fixed;
+}
+#navbar div{
+    text-align: center;
+}
+
+#navbar a{
+float:left;
+color: #ffffff;
+display:block;
+position:relative;
+padding:1rem;
+text-align:center;
+border-bottom: 1px solid #ff6a00;
+}
+#navbar a:hover{
+    background-color: #ff6a00;
+    border-bottom: 0;
+}
+
+#spread{
+background-image: url("../images/hd 1.jpg") ;
+height:50rem;;
+width: 100%;
+font-family: special;
+text-align:left;
+color:#202020;
+}
+#spread p{
+    margin:5rem;
+    padding: 2rem;
+    opacity:0.9;
+}
+#spread p img{
+    width: 3rem;
+}
+
+.button {
+    color:#303030;
+    margin:0 5px 0 5px;
+}
+
+#portfoliohead h3{
+margin-top:2rem;
+font-family:click;
+color:red;
+text-align:center;
+}
+#portfoliohead hr{
+    width: 50%;
+}
+#portfoliohead p{
+text-align:center;
+padding:2rem;
+font-family:paragraph;
+font-size:2rem;
+}
+#portfolio hr{
+width:50%;
+text-align:center;
+}
+#portfolio{
+     margin: 2rem; 
+}
+#portfolio p{
+padding:2rem;
+color:#101010;
+font-family:paragraph;
+font-size:1.5rem;
+}
+#portfolio block img{
+ width: 70%;
+ height: fit-content;
+ border-radius: 5%; 
+ }
+#portfolio block img:hover div{
+    opacity: 0.5;
+}
+#graphic1 block img{
+float:right;
+}
+#graphic2{
+float:left;
+}
+#port2{
+background-image: url("../images/hd 2.jpg");
+height:50rem;
+width: 100%;
+font-family: special;
+text-align:left;
+color:#202020;
+opacity:0.2;
+}
+
+#teamhead h3{
+font-family:click;
+color:#ff6a00;
+text-align:center;
+margin-top:4rem;
+margin-bottom:5px;
+letter-spacing:0.7rem;
+}
+#teamhead hr{
+width:50%;
+text-align:center;
+margin-bottom: 10px;
+}
+#teamhead p{
+    text-align: center;
+}
+#team {
+text-align:center;
+padding:1em;
+font-family:paragraph;
+}
+#team  block img{
+width:10rem;
+height:10rem;
+border-radius:10rem;
+}
+#team p{
+text-align:justify;
+}
+#team p img{
+position:center;
+text-align:center;
+}
+#team hr{
+width:60%;
+color:#303030;
+}
+
+#contact{
+ float:left;
+ background-color:#303030;
+}
+#contactform{
+padding:2rem;
+color:white;
+font-family:special;
+background-color:#303030;
+}
+#contactform input{
+border-bottom: 2px solid #ff6a00;
+border-top: 2px solid #ff6a00;
+border-left: 2px solid transparent;
+border-right: 2px solid transparent;
+color:white;
+background-color:#303030;
+}
+#contactform textarea{
+border-bottom: 2px solid #ff6a00;
+border-top: 2px solid #ff6a00;
+border-left: 2px solid transparent;
+border-right: 2px solid transparent;
+color:white;
+font-family:special;
+background-color:#303030;
+}
+#contactform form{
+background-color:#303030;
+}
+#contactform .button{
+background-color:#ff6a00;
+}
+#contactform .button:hover{
+width:20rem;
+background-color:brown;
+border-bottom: 2px solid brown;
+border-top: 2px solid brown;
+border-left: 2px solid brown;
+border-right: 2px solid brown;
+}
+#prompt{
+color:white;
+font-family:paragraph;
+text-align:center;
+padding:5rem;
+}
+#footer{
+background-color:maroon;
+color:white;
+}
+#footer p{
+margin:1rem;
+background-color:maroon;
+text-align:center;
+}
+#footer #social{
+float:right;
+}
+#footer img{
+width:28px;
+float:right;
+margin:1rem;
+text-align:right;
+}
